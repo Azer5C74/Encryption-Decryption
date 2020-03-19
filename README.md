@@ -11,12 +11,12 @@ Program arguments:
 Examples for running the program :
 
 Ex1:
-java Main -mode enc -in input.txt -out output.txt -key 5 -alg unicode
+java main -mode enc -in input.txt -out output.txt -key 5 -alg unicode
 This command should get input from input.txt, encrypt it using unicode algorithm and then output it to output.txt.
 
 
 Ex2:
-java Main -key 5 -data "Welcome" -mode enc -in input.txt
+java main -key 5 -data "Welcome" -mode enc -in input.txt
 Output:
 Bjqhtrj
 
